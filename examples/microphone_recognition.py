@@ -9,6 +9,7 @@ r = sr.Recognizer()
 with sr.Microphone() as source:
     print("Say something!")
     audio = r.listen(source)
+    print("done")
 
 # recognize speech using Sphinx
 try:
